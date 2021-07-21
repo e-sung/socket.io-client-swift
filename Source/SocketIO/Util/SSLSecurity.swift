@@ -32,7 +32,7 @@ open class SSLSecurity : NSObject {
     /// The internal Starscream SSLSecurity.
     public let security: Starscream.SSLSecurity
 
-    init(security: Starscream.SSLSecurity) {
+    public init(security: Starscream.SSLSecurity) {
         self.security = security
     }
 
